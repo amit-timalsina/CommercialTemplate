@@ -1,0 +1,20 @@
+<div class="col-lg-6 col-md-6" *ngFor= "let blog of blogs">
+    <div class="single-blog-post-item">
+        <div class="post-image">
+            <a routerLink="/{{ blog.key}}">
+                <img [src]='blog.imageUrl' alt="image" />
+            </a>
+            <div class="date">
+                <span>{{ blog.date.toDateString() }}</span>
+            </div>
+        </div>
+
+        <div class="post-content">
+            <span class="category">{{ blog.category }}</span>
+            <h3>
+              <p [innerHTML]='blog.description'></p>
+            </h3>
+            <a routerLink= "/{{ blog.key }}" class="details-btn">Continue Reading</a>
+        </div>
+    </div>
+</div>

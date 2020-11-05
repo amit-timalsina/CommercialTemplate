@@ -1,0 +1,7 @@
+[0709/070523.258:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0717/125539.656:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0717/125539.656:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0717/125539.672:ERROR:exception_snapshot_win.cc(99)] thread ID 9192 not found in process
+[0717/125539.672:ERROR:exception_snapshot_win.cc(99)] thread ID 7224 not found in process
+[0911/073342.068:ERROR:file_io.cc(90)] ReadExactly: expected 2296, observed 0
+[0911/073342.074:ERROR:crash_report_database_win.cc(447)] failed to read records
